@@ -1,0 +1,2 @@
+logwatch --detail high --mailto vladmur1999@gmail.com --range yesterday --service sshd --service vsftpd
+
