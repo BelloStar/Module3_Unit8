@@ -1,0 +1,6 @@
+MAILTO="vladmur1999@gmail.com"
+SHELL=bin/bash
+HOME=/
+
+0 8 * * * logwatch --detail high --mailto vladmur1999@gmail.com --range yester>
+30 18 * * 4 bash /home/skill/Module3HT/Task2.sh
